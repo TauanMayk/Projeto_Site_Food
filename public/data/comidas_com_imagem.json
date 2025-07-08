@@ -1,0 +1,176 @@
+[
+    {
+        "nome": "Side of Adobo Ranch",
+        "descricao": "",
+        "preco": "1.00",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/370f0e5cd1feef4d37aa5e02aa85f0d4/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Burrito Bowl",
+        "descricao": "Your choice of freshly grilled meat or sofritas served in a delicious bowl with rice, beans, or fajita veggies, and topped with guac, salsa, queso blanco, sour cream or cheese.",
+        "preco": "14.75",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/39e12c89a716ea2bf071513410caa4ce/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Salad",
+        "descricao": "Your choice of meat or sofritas served with our fresh supergreens lettuce blend made of Romaine, Baby Kale, and Baby Spinach. Add beans, queso blanco, salsa, guacamole, sour cream or cheese and top it off with our signature Chipotle-Honey Vinaigrette.",
+        "preco": "14.75",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/18529d7010b92a7194bb9dc297399a6b/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Quesadilla",
+        "descricao": "Cheese in a Flour Tortilla with your choice of meat, sofritas or fajita veggies and three included sides.",
+        "preco": "15.45",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/77e2b0592d66d2dde7517fe70eb42dcf/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Burrito",
+        "descricao": "Your choice of freshly grilled meat or sofritas wrapped in a warm flour tortilla with rice, beans, or fajita veggies, and topped with guac, salsa, queso blanco, sour cream or cheese.",
+        "preco": "14.75",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/98b8ba2dde94440f4cb7537f94f127b9/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Tacos",
+        "descricao": "Your choice of freshly grilled meat, sofritas, or guacamole, and up to five toppings served in a soft or hard-shell tortilla.",
+        "preco": "14.75",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/3d9e034a306ae5c8b37a4e370c2c7dc3/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "High Protein Bowl",
+        "descricao": "White Rice, Black Beans, Double Chicken, Red Chili Salsa, Cheese, and Shredded Romaine Lettuce",
+        "preco": "20.65",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/04d933f49db6824b2a867df5dba21a45/5143f1e218c67c20fe5a4cd33d90b07b.jpeg"
+    },
+    {
+        "nome": "Balanced Macros Bowl",
+        "descricao": "Light Rice, Black Beans, Chicken, Fajita Veggies, Fresh Tomato Salsa, Guacamole, and Extra Romaine Lettuce.",
+        "preco": "18.60",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/56318db6aa890154c6aec2643c12f0f8/0fb376d1da56c05644450062d25c5c84.jpeg"
+    },
+    {
+        "nome": "Go Half Veggie Bowl",
+        "descricao": "½ Chicken, ½ Sofritas, Lettuce White Rice, Fajita Veggies, Fresh Tomato Salsa, Roasted Chili-Corn Salsa, and Sour Cream",
+        "preco": "14.75",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/61eed49b9ca87ab5a264b287ac75ef6c/a19bb09692310dfd41e49a96c424b3a6.jpeg"
+    },
+    {
+        "nome": "Wholesome Bowl",
+        "descricao": "Salad Blend, Chicken, Fajita Veggies, Fresh Tomato Salsa, and Guac. The Wholesome Bowl is Paleo, Whole30®, Grain Free, Gluten Free, and Keto.",
+        "preco": "18.60",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/f139f9e371440944b6d063d8cd841a32/0fb376d1da56c05644450062d25c5c84.jpeg"
+    },
+    {
+        "nome": "Veggie Full Bowl",
+        "descricao": "White Rice, Black Beans, Fajita Veggies, Fresh Tomato Salsa, Roasted Chili-Corn Salsa, and Guacamole",
+        "preco": "14.75",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/9ee4fcead8abc88f69cbe53f4144f91a/5143f1e218c67c20fe5a4cd33d90b07b.jpeg"
+    },
+    {
+        "nome": "Kid's Quesadilla",
+        "descricao": "With a side of rice and beans. Includes fruit or kid's chips and organic juice or milk.",
+        "preco": "6.45",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/f20ffcfc8b82311d8d83f19a7249921c/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Kid's Build Your Own",
+        "descricao": "Your choice of meat, guacamole or queso, and two toppings to go with a pair of crispy corn or soft flour Tortillas.Includes fruit or kid's chips and organic juice or milk.",
+        "preco": "7.75",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/823c029fa7a2ccbab07e6eeecd42577c/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Chips",
+        "descricao": "",
+        "preco": "2.90",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/87fe20468321285c2bd69e76f19a1718/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Large Chips",
+        "descricao": "",
+        "preco": "3.65",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/e8fdae09bc49d3b56eddc8b209a23f11/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Tortilla on the Side",
+        "descricao": "",
+        "preco": "0.65",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/28917f02d0d32be02e2f9245c9795be4/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Side of Queso Blanco",
+        "descricao": "",
+        "preco": "3.85",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/5997f476cc0e8a0f5172ea406f5dbb4e/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Side of Adobo Ranch",
+        "descricao": "",
+        "preco": "1.00",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/370f0e5cd1feef4d37aa5e02aa85f0d4/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Side of Guacamole",
+        "descricao": "",
+        "preco": "3.85",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/42890df5d5d762f74ea59f5b4582bafb/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Poppi Orange",
+        "descricao": "",
+        "preco": "4.75",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/32490a93b69f5eba6e47e1afba3459d1/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Poppi Strawberry Lemon",
+        "descricao": "",
+        "preco": "4.75",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/d100b3a65ea314defd384d61592826c3/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Tractor Organic Lemonade",
+        "descricao": "",
+        "preco": "5.15",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/c93e70d7f840f4f65ea4cc6fb6278f67/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Apple Juice",
+        "descricao": "",
+        "preco": "5.15",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/3816b6e8b0aa8536790a4ef53bc41457/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Coke Zero",
+        "descricao": "",
+        "preco": "5.00",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/1c5f99bba20b346e98ffefb384407e92/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Open Water Still",
+        "descricao": "",
+        "preco": "4.70",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/bf02a6f1c30a09aaec52b16ca14a5ee4/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Blackberry Izze",
+        "descricao": "",
+        "preco": "5.00",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/22f5c5de068747ecfafd8954acebf542/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Mexican Coca-Cola",
+        "descricao": "",
+        "preco": "5.00",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/79a1e73b751a95252f8e57193b74477b/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Mexican Sprite",
+        "descricao": "",
+        "preco": "5.00",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/8642d9772d50e6522cdf1f5c4527b617/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    },
+    {
+        "nome": "Topo Chico Mineral Water",
+        "descricao": "",
+        "preco": "5.00",
+        "imagem": "https://tb-static.uber.com/prod/image-proc/processed_images/20e34496942e951b26be9e3c749c142d/c67fc65e9b4e16a553eb7574fba090f1.jpeg"
+    }
+]
