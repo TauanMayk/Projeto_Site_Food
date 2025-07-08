@@ -38,7 +38,7 @@ export const MainPage = () => {
         </div>
         <div className="Hamburguer-Logo w-6xl max-[970px]:w-2xl">
           <img
-            srcSet="./public/images/02-25.png"
+            srcSet="/images/02-25.png"
             alt="Foto Hambuger"
             className="w-auto h-auto object-cover"
           />
