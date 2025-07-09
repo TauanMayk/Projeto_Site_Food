@@ -41,13 +41,19 @@ export const MenuBurguer = () => {
     fetchData();
   }, [burgers]);
 
+  if (!burgers) {
+    return <div>Carregando...</div>;
+  }
+
   return (
     <>
-      <motion.section className="bg-zinc-800 py-16 px-8"
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -20 }}
-      transition={{ duration: 0.6, ease: 'easeOut' }}>
+      <motion.section
+        className="bg-zinc-800 py-16 px-8"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -20 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+      >
         <h3 className="text-3xl font-bold text-center text-yellow-400 mb-10">
           Nosso Cardápio
         </h3>
@@ -66,9 +72,7 @@ export const MenuBurguer = () => {
                 {burger.name}
               </h4>
               <p className="text-gray-400 capitalize">{burger.desc}</p>
-              <span className="text-green-500 text-xl">
-                RS ${burger.price}
-              </span>
+              <span className="text-green-500 text-xl">RS ${burger.price}</span>
             </div>
           ))}
         </div>
