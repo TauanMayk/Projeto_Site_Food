@@ -1,27 +1,7 @@
 import "./menuburguer.css";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-
-interface Burger {
-  id: number;
-  name: string;
-  images: [
-    {
-      sm: string;
-      lg: string;
-    }
-  ];
-  desc: string;
-  ingredients: [
-    {
-      id: number;
-      name: string;
-      img: string;
-    }
-  ];
-  price: number;
-  veg: boolean;
-}
+import type { Burger } from "../../models/BurgerModel";
 
 export const MenuBurguer = () => {
   const [burgers, setDataBurger] = useState<Burger[]>([]);

@@ -15,15 +15,15 @@ export const MainPage = () => {
     <>
       <HeaderPage />
       <main className="bg-zinc-900 text-white font-roboto flex max-[970px]:flex-col items-center justify-center px-30 py-24 gap-10 h-full w-auto">
-        <div className="page-content max-w-xl text-left font-sans max-[970px]:max-w-2xl max-[970px]:text-center">
+        <div className="page-content max-w-xl text-left font-sans max-[970px]:max-w-auto max-[970px]:text-center">
           <small className="text-sm font-semibold leading-tight">FOODies</small>
-          <h2 className="text-6xl font-extrabold mb-6 leading-tight text-left">
+          <h2 className="text-6xl font-extrabold mb-6 leading-tight text-left max-[970px]:text-center max-[970px]:text-4xl">
             Delicioso e Gostoso
           </h2>
           <p className="text-lg text-zinc-400 mb-6">
             Veja nosso Menu de Cardapios de Hamburgueres e Comidas Tipicas
           </p>
-          <div className="flex gap-4 min-w-2xl">
+          <div className="flex gap-4 min-w-2xl max-[970px]:justify-center max-[580px]:w-auto">
             <button
               className="bg-yellow-400 text-zinc-900 font-bold px-8 py-3 rounded-full hover:bg-red-600 hover:text-white cursor-pointer transition duration-500"
               onClick={() => setAbrirMenuBurguer(!abrirMenuBurguer)}
@@ -44,7 +44,7 @@ export const MainPage = () => {
             </button>
           </div>
         </div>
-        <div className="Hamburguer-Logo w-6xl max-[970px]:w-2xl">
+        <div className="Hamburguer-Logo w-6xl max-[970px]:w-2xl max-[580px]:w-auto">
           <img
             srcSet="/images/02-25.png"
             alt="Foto Hambuger"

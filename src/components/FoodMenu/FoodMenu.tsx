@@ -1,16 +1,10 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import type { Food } from "../../models/FoodsModel";
 import "./foodmenu.css";
 
-interface Comidas {
-  nome: string;
-  descricao: string;
-  preco: string;
-  imagem: string;
-}
-
 export const FoodMenu = () => {
-  const [foodData, setFoodsData] = useState<Comidas[]>([]);
+  const [foodData, setFoodsData] = useState<Food[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {

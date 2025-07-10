@@ -1,14 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import type { Groceries } from "../../models/GroceriesModel";
 import "./menugroceries.css";
-
-interface Groceries {
-  id: number;
-  name: string;
-  price: string;
-  description: string;
-  img: string;
-}
 
 export const MenuGroceries = () => {
   const [groceriesData, setGroceriesData] = useState<Groceries[]>([]);
