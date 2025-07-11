@@ -13,7 +13,7 @@ export const AboutPage = () => {
       <br />
       <div className="w-auto h-auto bg-white text-black flex flex-col items-center justify-center gap-4 p-6 mt-8">
         <h1 className="text-2xl">Sobre nós</h1>
-        <p className="text-xl text-green-500 font-semibold mt-6 leading-1">
+        <p className="text-xl text-green-500 font-semibold mt-6">
           Nós fazemos Comidas deliciosas e gostosas e esperamos que os clientes
           estejam satisfeito com a nossa Comida.
         </p>

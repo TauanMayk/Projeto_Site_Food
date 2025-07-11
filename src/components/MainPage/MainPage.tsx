@@ -15,7 +15,7 @@ export const MainPage = () => {
     <>
       <HeaderPage />
       <main className="bg-zinc-900 text-white font-roboto flex max-[970px]:flex-col lg:flex-row items-center justify-center px-6 lg:px-24 py-24 gap-12 m-h-screen w-full">
-        <div className="max-w-xl text-center lg:text-left mt-6">
+        <div className="max-w-xl text-center lg:text-left mt-26">
           <small className="text-xl font-semibold leading-tight text-yellow-400">
             FOODies
           </small>

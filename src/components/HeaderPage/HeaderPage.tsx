@@ -10,7 +10,7 @@ export const HeaderPage = () => {
           <p className="hover:scale-125 transition duration-300">FOODies</p>
         </div>
         <motion.nav
-          className="page-header-menu flex flex-row gap-2 cursor-pointer text-lg space-x-2 font-semibold"
+          className="page-header-menu flex flex-col sm:flex-row gap-2 cursor-pointer text-sm md:text-lg space-x-2 font-semibold"
           initial={{ x: -120, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1.2, ease: "easeInOut" }}
