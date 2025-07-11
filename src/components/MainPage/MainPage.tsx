@@ -1,8 +1,8 @@
 import "./mainpage.css";
 import { HeaderPage } from "../HeaderPage/HeaderPage";
-import { MenuBurguer } from "../MenuBurguer/MenuBurguer";
-import { FoodMenu } from "../FoodMenu/FoodMenu";
-import { MenuGroceries } from "../MenuGroceries/MenuGroceries";
+import { MenuBurguer } from "../../Menus/MenuBurguer/MenuBurguer";
+import { FoodMenu } from "../../Menus/FoodMenu/FoodMenu";
+import { MenuGroceries } from "../../Menus/MenuGroceries/MenuGroceries";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -14,35 +14,48 @@ export const MainPage = () => {
   return (
     <>
       <HeaderPage />
-      <main className="bg-zinc-900 text-white font-roboto flex max-[970px]:flex-col items-center justify-center px-30 py-24 gap-10 h-full w-auto">
-        <div className="page-content max-w-xl text-left font-sans max-[970px]:max-w-auto max-[970px]:text-center">
-          <small className="text-sm font-semibold leading-tight">FOODies</small>
-          <h2 className="text-6xl font-extrabold mb-6 leading-tight text-left max-[970px]:text-center max-[970px]:text-4xl">
+      <main className="bg-zinc-900 text-white font-roboto flex max-[970px]:flex-col lg:flex-row items-center justify-center px-6 lg:px-24 py-24 gap-12 m-h-screen w-full">
+        <div className="max-w-xl text-center lg:text-left mt-6">
+          <small className="text-xl font-semibold leading-tight text-yellow-400">
+            FOODies
+          </small>
+          <h2 className="text-4xl font-extrabold mb-6 leading-tight text-left max-[900px]:text-center">
             Delicioso e Gostoso
           </h2>
           <p className="text-lg text-zinc-400 mb-6">
             Veja nosso Menu de Cardapios de Hamburgueres e Comidas Tipicas
           </p>
-          <div className="flex gap-4 min-w-2xl max-[970px]:justify-center max-[580px]:w-auto">
-            <button
-              className="bg-yellow-400 text-zinc-900 font-bold px-8 py-3 rounded-full hover:bg-red-600 hover:text-white cursor-pointer transition duration-500"
+          <motion.div
+            className="flex flex-wrap justify-center lg:justify-start gap-4"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
+          >
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              className="bg-yellow-400 text-zinc-900 font-bold px-6 py-3 rounded-full hover:bg-red-600 hover:text-white cursor-pointer transition duration-500"
               onClick={() => setAbrirMenuBurguer(!abrirMenuBurguer)}
             >
               <p>Menu Hamburgueres</p>
-            </button>
-            <button
+            </motion.button>
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
               className="bg-yellow-400 text-zinc-900 font-bold px-8 py-3 rounded-full hover:bg-red-600 hover:text-white cursor-pointer transition duration-500"
               onClick={() => setAbrirMenuFoods(!abrirMenuFoods)}
             >
               <p>Menu Comidas</p>
-            </button>
-            <button
+            </motion.button>
+            <motion.button
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
               className="bg-yellow-400 text-zinc-900 font-bold px-8 py-3 rounded-full hover:bg-red-600 hover:text-white cursor-pointer transition duration-500"
               onClick={() => setAbrirMenuGroceries(!abrirMenuGroceries)}
             >
               <p>Menu Doces</p>
-            </button>
-          </div>
+            </motion.button>
+          </motion.div>
         </div>
         <div className="Hamburguer-Logo w-6xl max-[970px]:w-2xl max-[580px]:w-auto">
           <img

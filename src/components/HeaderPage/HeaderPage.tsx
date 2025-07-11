@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import './headerpage.css';
+import { Link } from "react-router";
+import "./headerpage.css";
 
 export const HeaderPage = () => {
   return (
@@ -15,16 +16,16 @@ export const HeaderPage = () => {
           transition={{ duration: 1.2, ease: "easeInOut" }}
         >
           <li className="hover:text-yellow-400 hover:scale-125 transition duration-300">
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li className="hover:text-yellow-400 hover:scale-125 transition duration-300">
-            <a href="#">Sobre nós</a>
+            <Link to="/sobre-nos">Sobre nós</Link>
           </li>
           <li className="hover:text-red-600 hover:scale-125 transition duration-300">
-            <a href="#">Menus</a>
+            <Link to="/menus">Menus</Link>
           </li>
           <li className="hover:text-yellow-400 hover:scale-125 transition duration-300">
-            <a href="#">Nós Contate</a>
+            <Link to="/nos-contate">Nós Contate</Link>
           </li>
         </motion.nav>
       </header>

@@ -1,10 +1,10 @@
 import "./App.css";
-import { MainPage } from "./components/MainPage/MainPage";
+import { AppRoutes } from "./pages/routes";
 
 function App() {
   return (
     <>
-      <MainPage />
+      <AppRoutes />
     </>
   );
 }
