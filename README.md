@@ -1,14 +1,14 @@
 # 🍔 Projeto Site Food - Landing Page de Restaurante com React
-
 Uma landing page interativa de restaurante, desenvolvida com **React + TypeScript**, com transições suaves usando **Framer Motion** e navegação moderna via **React Router DOM**. O projeto simula uma experiência completa de um site institucional para um restaurante, com design responsivo e animações elegantes.
 
--- 📸 Preview do Site: 
+## 📸Preview do Site: 
 <img width="1746" height="866" alt="Screenshot_80" src="https://github.com/user-attachments/assets/be38ae92-9893-4af7-aa64-795a11147bfb" />
 
 ---
 
-## Acesse o Projeto Online
-🔗 [Visualizar no GitHub Pages](https://tauanmayk.github.io/Projeto_Site_Food/)
+## Acesse o Projeto Online:
+🔗 [Link do Site no Vercel](https://projeto-site-food-olive.vercel.app/)
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
