@@ -20,7 +20,7 @@ export const MenuPage = () => {
         Voltar para o Começo
       </Link>
       <br />
-      <div className="flex flex-wrap justify-center lg:justify-start gap-4">
+      <div className="flex flex-wrap justify-center lg:justify-start gap-4 mt-12 mb-10 pl-8">
         <button
           className="bg-yellow-400 text-zinc-900 font-bold px-8 py-3 rounded-full hover:bg-red-600 hover:text-white cursor-pointer transition duration-500"
           onClick={() => setAbrirMenuBurguer(!abrirMenuBurguer)}
