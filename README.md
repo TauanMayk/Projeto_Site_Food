@@ -6,8 +6,8 @@ Uma landing page interativa de restaurante, feito com **React + TypeScript**, co
 
 ---
 
-## Acesse o Projeto Online:
-🔗 [Link do Site no Vercel](https://projeto-site-food-olive.vercel.app/)
+## 🚀Acesse o Projeto Online:
+🔗 [Link do Site Online: ](https://projeto-site-food-olive.vercel.app/)
 
 ---
 
