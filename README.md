@@ -1,4 +1,4 @@
-# 🍔 Projeto Site Food - Landing Page de Restaurante
+# 🍔 Projeto Site Food - Landing Page SPA de Restaurante
 Uma landing page interativa de restaurante, feito com **React + TypeScript**, com animações e transições usando **Framer Motion** e navegação entre paginas com **React Router DOM**. O projeto simula uma experiência completa de um site de restaurante com diversas comidas.
 
 ## 📸Preview do Site: 
