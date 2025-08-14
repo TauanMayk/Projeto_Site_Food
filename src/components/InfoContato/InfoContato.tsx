@@ -11,12 +11,23 @@ export const InfoContato = () => {
         Voltar para o Começo
       </Link>
       <br />
-      <div className="w-auto h-auto bg-black flex items-center justify-center gap-4 p-6 mt-8">
-        <h3 className="text-2xl text-orange-500">Contato :</h3>
-        <p className="text-center text-xl text-white">
-          placeholdercontato@gmail.com
-        </p>
-      </div>
+      <section className="w-auto h-11/12 bg-black flex flex-col items-center justify-center gap-4 p-6 mt-10">
+        <h3 className="text-4xl text-orange-600 mb-6">🍽️ Fale com a gente:</h3>
+        <div className="bg-white rounded-2xl h-1/4 w-auto flex flex-col p-4 mt-6  items-center justify-center">
+          <ul className="gap-8 list-none">
+            <li className="mb-4">
+              <p className="text-center text-xl text-indigo-400 font-semibold">
+                ✉️ Email: placeholdercontato@gmail.com
+              </p>
+            </li>
+            <li>
+              <p className="text-center text-xl text-red-300 font-semibold">
+                📞 Telefone: (99)9999-9999
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </>
   );
 };

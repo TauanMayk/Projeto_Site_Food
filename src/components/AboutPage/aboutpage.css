@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+main{
+    background: url(../../../public/images/background-About.jpg) no-repeat no-repeat;
+    background-size: cover;
+}
