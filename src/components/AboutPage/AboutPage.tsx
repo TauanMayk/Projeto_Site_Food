@@ -1,5 +1,6 @@
 import "./aboutpage.css";
 import { Link } from "react-router";
+import { motion } from "framer-motion";
 
 export const AboutPage = () => {
   return (
@@ -11,7 +12,13 @@ export const AboutPage = () => {
         Voltar para o Começo
       </Link>
       <br />
-      <main className="w-auto h-full bg-white text-black flex items-center justify-evenly gap-4 p-6 mt-8">
+      <motion.main 
+        className="w-auto h-full bg-white text-black flex items-center justify-evenly gap-4 p-6 mt-8"
+        initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: 1, x: 0 }}
+        exit={{ opacity: 0, x: -20 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+      >
         <div className="bg-black flex flex-col w-1/2 h-auto opacity-90 p-6 rounded-2xl">
           <h1 className="text-6xl text-gray-600 text-center mr-10 sans-serif border-gray-300 border-b-2 p-2">
             Sobre nós
@@ -31,7 +38,7 @@ export const AboutPage = () => {
             <strong className="text-red-500">🥤 Bebidas</strong> e muito mais.
           </span>
         </div>
-      </main>
+      </motion.main>
     </>
   );
 };

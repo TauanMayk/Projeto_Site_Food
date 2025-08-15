@@ -1,5 +1,6 @@
 import "./infocontato.css";
 import { Link } from "react-router";
+import { motion } from "framer-motion"; 
 
 export const InfoContato = () => {
   return (
@@ -11,8 +12,14 @@ export const InfoContato = () => {
         Voltar para o Começo
       </Link>
       <br />
-      <section className="w-auto h-11/12 bg-black flex flex-col items-center justify-center gap-4 p-6 mt-10">
-        <h3 className="text-4xl text-orange-600 mb-6">🍽️ Fale com a gente:</h3>
+      <motion.section 
+        className="w-auto h-11/12 bg-black flex flex-col items-center justify-center gap-4 p-6 mt-10"
+        initial={{ opacity: 0, x: -20 }}
+        animate={{ opacity: 1, x: 0 }}
+        exit={{ opacity: 0, x: -20 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+      >
+        <h3 className="text-4xl text-rose-900 mb-6 font-mono ">🍽️ Fale com a gente:</h3>
         <div className="bg-white rounded-2xl h-1/4 w-auto flex flex-col p-4 mt-6  items-center justify-center">
           <ul className="gap-8 list-none">
             <li className="mb-4">
@@ -27,7 +34,7 @@ export const InfoContato = () => {
             </li>
           </ul>
         </div>
-      </section>
+      </motion.section>
     </>
   );
 };
