@@ -5,7 +5,7 @@ import "./headerpage.css";
 export const HeaderPage = () => {
   return (
     <>
-      <header className="page-header bg-zinc-950 flex justify-around items-center px-2 py-6 shadow-md text-white font-roboto list-none fixed w-full">
+      <header className="page-header bg-zinc-950/75 flex justify-around items-center px-2 py-6 shadow-md text-white font-roboto list-none fixed w-full">
         <div className="text-2xl font-bold cursor-pointer text-yellow-400">
           <p className="hover:scale-125 transition duration-300">FOODies</p>
         </div>
